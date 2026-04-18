@@ -1,5 +1,5 @@
 {% set name = "album-docker" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/album_docker-{{ version }}.tar.gz
-  sha256: ae06c2f55049da0fca435eb396a26cdade946251ba98d14f580b93b4365759f3
+  sha256: a3fa18a4be1b4844e2ebd234377f76005d7c65a8a099ac26f07de5d0d5bacca8
 
 build:
   noarch: python
